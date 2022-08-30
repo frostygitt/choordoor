@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  a {
+    color: #000;
+  }
+  
+  /* header- Navigation */
+  
+
+  
+/* CSS Cards */
+  .card {
+    /* background-color:; */
+    color: white;
+    padding: 1rem;
+    height: 4rem;
+  }
+  
+  .cards {
+    /* Change the size and the margin of the web */
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .sub h1,p{
+    line-height: 1.5; 
+    text-align: justify;
+    text-justify: inter-word;
+    font-weight: bold;
+   }
+
+.idcolor {
+  margin: 21px;
+  padding-top: 200px;
+  background-color: #f4f4f4;
+}
+
+@media only screen and (max-width: 600px) {
+  .idcolor {
+    /* margin: 21px; */
+    /* padding-bottom: 50px; */
+    margin-top: 20em;
+    background-color: #f4f4f4;
+    /* font-size: 45; */
+  }
+  .sub h1,p{
+    line-height: 1.5; 
+    
+    text-align: justify;
+    text-justify: inter-word;
+    /* font-weight: bold; */
+   }
+
+}
+

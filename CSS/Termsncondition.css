@@ -1,0 +1,99 @@
+    @import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@300&display=swap');
+
+
+    .padding {
+        margin-top: 3%;
+        margin-left: 5%;
+    }
+    .bigbox {
+        /* padding-left: 5%; */
+        width: 31em;
+        /* height: 100%; */
+        background-color: #151515;
+        border-radius: 20px;
+
+    }
+    .bigbox h1 {
+        color: white;
+        padding-top: 15px;
+        font-family: 'Anek Telugu', sans-serif;
+        font-size: 45px;
+        padding-left: 12px;
+    }
+
+    .para-padding {
+        margin-top: 3%;
+        margin-left: 5%;
+        background-color: #151515;
+        width: 90%;
+        /* height: 15em; */
+    }
+
+    .para-bigbox {
+        font-size: 45px;
+        width: 99%;
+        background-color: #151515;
+        border-radius: 20px;
+ 
+    }
+
+    .para-bigbox p {
+        color: white;
+        padding-top: 15px;
+        font-family: 'Anek Telugu', sans-serif;
+        padding-left: 12px;
+        font-size: 20px;
+        text-align: justify;
+        line-height: 1.5em;
+    }
+
+    /* Footer */
+
+
+    .columns {
+    padding-top: 1%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    background-color: #2f2d2d;
+    line-height: 3em;
+
+
+    }
+
+    .column {
+    flex: 33.33%;
+    color:#ffffff;
+    text-align: left;
+    text-align: center;
+    }
+
+    .align button{
+
+            margin-top: 15%;
+            color: white;
+            background-color: #FF2E90;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 70px 10px;
+            cursor: pointer;
+    }
+
+    #Merch {
+    color: #FF6666;
+    }
+
+    .column a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #logo-main {
+        text-decoration: none;
+  
+    }
